@@ -1,0 +1,54 @@
+.form-container {
+    display: flex;
+    justify-content: center;
+}
+
+.form {
+    padding: 20px;
+    margin: 30px;
+    border-radius: 10px;
+    width: 400px;
+    background: rgba(214, 89, 210, 0.1);
+    backdrop-filter: saturate(180%) blur(2px);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.input-field {
+    /* border: 1px solid rebeccapurple; */
+    margin-block: 15px;
+}
+
+label {
+    display: block;
+    margin-block: 2px;
+    color: rgb(244, 244, 255);
+    padding-left: 2px;
+    padding-bottom: 3px;
+}
+
+input {
+    width: 100%;
+    padding: 15px;
+    font-size: 1rem;
+    border-radius: 8px;
+    border: none;
+    outline-color: thistle;
+    outline-offset: 1px;
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+select {
+    width: 50%;
+    padding: 15px;
+    font-size: 1rem;
+    border-radius: 8px;
+    border: none;
+    outline-color: thistle;
+    outline-offset: 1px;
+    color: rgb(106, 106, 106);
+}

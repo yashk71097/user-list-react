@@ -1,0 +1,53 @@
+.display-container {
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.display {
+    margin: 30px;
+    border-radius: 10px;
+    background: rgba(214, 89, 210, 0.1);
+    backdrop-filter: saturate(180%) blur(50px);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    overflow-x: auto;
+}
+
+thead {
+    color: rgb(146, 238, 132);
+}
+
+th {
+    font-size: 1.3rem;
+    letter-spacing: 1px;
+}
+
+th,
+td {
+    padding: 10px;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+tbody {
+    color: antiquewhite;
+    font-size: 1.1rem;
+}
+
+.header-name {
+    display: block;
+    width: 200px;
+}
+
+.header-mail {
+    width: 300px;
+}
+
+.header-marital {
+    display: block;
+    width: 200px;
+}
+
+.mail-section {
+    text-transform: lowercase;
+}
